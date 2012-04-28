@@ -49,5 +49,3 @@ Example
              this.save(); // Save when ever you feel like it. (probably best after adding content to the object.)
              // Run your project...
     };
-
-See examples folder for more.
