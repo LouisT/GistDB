@@ -50,4 +50,4 @@ Example
              // Run your project...
     };
 
-See examples for more.
+See examples folder for more.
