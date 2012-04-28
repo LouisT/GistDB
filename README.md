@@ -5,7 +5,7 @@ I will write a better readme later.
 
 This project was started just to learn the gist api.
 
-This project is [Unlicensed]http://unlicense.org/
+This project is [Unlicensed](http://unlicense.org/ "Title")
 
 Commands
 --------
