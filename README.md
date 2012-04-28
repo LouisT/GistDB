@@ -11,7 +11,7 @@ Commands
 --------
 I will make this better, for now look at the examples.
 
-Options:
+Options
 ------
     ID - Your gist id. (optional)
     Timeout - Request timeout. (optional, defaults to 5 seconds)
