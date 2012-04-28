@@ -13,6 +13,8 @@ I will make this better, for now look at the examples.
 
 Options
 ------
+    NOTE: Username and password are not needed if you're only going to load the gist.
+
     ID - Your gist id. (optional)
     Timeout - Request timeout. (optional, defaults to 10 seconds)
     Example: gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
