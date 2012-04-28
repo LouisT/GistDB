@@ -27,7 +27,7 @@ Example
 -------
     var GistDB = require('gistdb');
     var gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
-    content = {example:'This is an example database!'};
+    var content = {example:'This is an example database!'};
     gdb.create(content,'example.db');
     gdb.on('created',function (data) {
         console.log('New database created! ('+data.id+')');

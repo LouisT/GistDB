@@ -2,7 +2,7 @@ var GistDB = require('gistdb');
 
 var gdb = new GistDB('USERNAME','PASSWORD',{timeout:1000});
 
-content = {example:'This is an example database!'};
+var content = {example:'This is an example database!'};
 
 gdb.create(content,'example.db');
 

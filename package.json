@@ -10,6 +10,12 @@
         "type": "git",
         "url": "git://github.com/LouisT/gistdb.git"
     },
+    "licenses": [
+        {
+          "type": "unlicensed",
+          "url": "http://unlicense.org/"
+        }
+    ],
     "keywords": [
         "gist",
         "database",
