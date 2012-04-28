@@ -11,10 +11,21 @@ Commands
 --------
 I will make this better, for now look at the examples.
 
+Options:
+  ID - Your gist id. (optional)
+  Timeout - Request timeout. (optional, defaults to 5 seconds)
+  Example: gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
+
+Usage
+-------
+    var GistDB = require('gistdb');
+    var gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
+    gdb.create(object,'database.name');
+
 Example
 -------
     var GistDB = require('gistdb');
-    gdb = new GistDB('USERNAME','PASSWORD');
+    var gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
     content = {example:'This is an example database!'};
     gdb.create(content,'example.db');
     gdb.on('created',function (data) {
@@ -37,3 +48,5 @@ Example
              this.save(); // Save when ever you feel like it. (probably best after adding content to the object.)
              // Run your project...
     };
+
+See examples for more.
