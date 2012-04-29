@@ -1,6 +1,6 @@
-var GistDB = require('gistdb');
+var GistDB = require('../index.js');
 
-var gdb = new GistDB('USERNAME','PASSWORD');
+var gdb = new GistDB({user:'USERNAME',pass:'PASSWORD'});
 
 var content = {example:'This is an example database!'};
 
