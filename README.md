@@ -36,6 +36,7 @@ Listeners
 Options
 ------
     NOTE: Username and password are not needed if you're only going to load the gist.
+<<<<<<< HEAD
           Changed from "user,pass,[opts]" for easy option choosing.
 
     User - Your github user name. (optional only if loading a gist.)
@@ -43,6 +44,12 @@ Options
     ID - Your gist id. (optional)
     Timeout - Request timeout. (optional, defaults to 10 seconds)
         Example: gdb = new GistDB({user:'USERNAME',pass:'PASSWORD',id:"9cb6f8b7baa8300af0d7",timeout:1000});
+=======
+
+    ID - Your gist id. (optional)
+    Timeout - Request timeout. (optional, defaults to 10 seconds)
+    Example: gdb = new GistDB('USERNAME','PASSWORD',{id:"9cb6f8b7baa8300af0d7",timeout:1000});
+>>>>>>> e1d00d918040984e8f23b61ef79b8f4517eec6a2
 
 Usage
 -------
