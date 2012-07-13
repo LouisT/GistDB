@@ -1,7 +1,7 @@
 /*
   Test 1, read example database.
 */
-console.log("Test 1: print from an example database.");
+console.log("Test 1: print from an example database.\n");
 var GistDB = require('./');
 var gdb = new GistDB({id:'9879133ed9dd415d7199'});
 gdb.load();
