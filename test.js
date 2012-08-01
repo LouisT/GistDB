@@ -1,15 +1,9 @@
 /*
-<<<<<<< HEAD
   Yes, I realize these tests are super simple and need to be improved.
 
   Test 1, read example database.
 */
 console.log("Test 1: print from an example database.");
-=======
-  Test 1, read example database.
-*/
-console.log("Test 1: print from an example database.\n");
->>>>>>> ad8bd3dd86cbd1713554ce3109441f9ad8711ce3
 var GistDB = require('./');
 var gdb = new GistDB({id:'9879133ed9dd415d7199'});
 gdb.load();
@@ -32,8 +26,4 @@ function runTest2 () {
          gdb.on('loaded',function (data) {
              console.log('Current data: '+JSON.stringify(data));
          });
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ad8bd3dd86cbd1713554ce3109441f9ad8711ce3
