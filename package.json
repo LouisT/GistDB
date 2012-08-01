@@ -22,7 +22,11 @@
         "github"
     ],
     "scripts": {
+<<<<<<< HEAD
         "test": "node test.js && test2.js"
+=======
+        "test": "node test.js"
+>>>>>>> ad8bd3dd86cbd1713554ce3109441f9ad8711ce3
     },
     "description": "Use gist's from GitHub as database files.",
     "engine": "node => 0.6",
