@@ -1,6 +1,9 @@
 GistDB
 ======
 
+Install:
+    npm install gistdb
+
 This project was started just to learn the gist api.
 
 This project is [Unlicensed](http://unlicense.org/ "Title")
