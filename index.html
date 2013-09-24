@@ -28,11 +28,18 @@
 
     <div class="container">
       <section id="main_content">
-        <p>This project was started just to learn the gist api.</p>
+        <h1>
+<a name="gistdb" class="anchor" href="#gistdb"><span class="octicon octicon-link"></span></a>GistDB</h1>
+
+<p>Install:
+    npm install gistdb</p>
+
+<p>This project was started just to learn the gist api.</p>
 
 <p>This project is <a href="http://unlicense.org/" title="Title">Unlicensed</a></p>
 
-<h2>Functions</h2>
+<h2>
+<a name="functions" class="anchor" href="#functions"><span class="octicon octicon-link"></span></a>Functions</h2>
 
 <pre><code>create(content[,database name]); -- Create a new databse. (Requires auth) - Caller ID: 3
 get(key) -- Get the value for key.
@@ -41,10 +48,11 @@ remove(key) -- Deletes a key and its value. Returns true or false.
 save(); -- Saves a database to gist. (Requires auth) - Caller ID: 2
 set(key,value); -- Sets a key with said value.
 
-NOTE: Caller ID is used for the error lisener.
+NOTE: Caller ID is used for the error listener.
 </code></pre>
 
-<h2>Listeners</h2>
+<h2>
+<a name="listeners" class="anchor" href="#listeners"><span class="octicon octicon-link"></span></a>Listeners</h2>
 
 <pre><code>created -- Triggered by create()
     Returned in object: db (database name), id (gist id)
@@ -62,7 +70,8 @@ error -- Triggered by create(), load(), save()
 NOTE: If a listener is called without being defined, a message is sent to console.
 </code></pre>
 
-<h2>Options</h2>
+<h2>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h2>
 
 <pre><code>NOTE: Username and password are not needed if you're only going to load the gist.
       Changed from "user,pass,[opts]" for easy option choosing.
@@ -74,13 +83,15 @@ Timeout - Request timeout. (optional, defaults to 10 seconds)
     Example: gdb = new GistDB({user:'USERNAME',pass:'PASSWORD',id:"9cb6f8b7baa8300af0d7",timeout:1000});
 </code></pre>
 
-<h2>Usage</h2>
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <pre><code>var GistDB = require('gistdb');
 var gdb = new GistDB({user:'USERNAME',pass:'PASSWORD',id:"9cb6f8b7baa8300af0d7",timeout:1000});
 </code></pre>
 
-<h2>Example</h2>
+<h2>
+<a name="example" class="anchor" href="#example"><span class="octicon octicon-link"></span></a>Example</h2>
 
 <pre><code>var GistDB = require('gistdb');
 var gdb = new GistDB({user:'USERNAME',pass:'PASSWORD',id:"9cb6f8b7baa8300af0d7",timeout:1000});
