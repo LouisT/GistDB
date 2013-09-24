@@ -17,7 +17,7 @@ Functions
     save(); -- Saves a database to gist. (Requires auth) - Caller ID: 2
     set(key,value); -- Sets a key with said value.
  
-    NOTE: Caller ID is used for the error lisener.
+    NOTE: Caller ID is used for the error listener.
 
 Listeners
 ------
