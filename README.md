@@ -78,3 +78,7 @@ Example
              this.save(); // Save when ever you feel like it. (probably best after adding content to the object.)
              // Run your project...
     };
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/LouisT/gistdb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
