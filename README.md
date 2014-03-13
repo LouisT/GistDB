@@ -79,6 +79,3 @@ Example
              // Run your project...
     };
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/LouisT/gistdb/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
