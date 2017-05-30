@@ -1,4 +1,4 @@
-‚GistDB (WIP convert to ES6, see TODO below)
+GistDB (WIP convert to ES6, see TODO below)
 ===
 
 GistDB is a key/value store that uses [gist] as a backend for storage.
